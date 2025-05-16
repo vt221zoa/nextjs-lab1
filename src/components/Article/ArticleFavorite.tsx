@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import Button from '@mui/material/Button';
 
 export default function FavoriteArticle({ id }: { id: number }) {
     return (
@@ -11,11 +12,13 @@ export default function FavoriteArticle({ id }: { id: number }) {
 async function FavoriteArticleContent({ id }: { id: number }) {
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
     const article = await res.json();
-
     return (
         <div className="border p-3 mb-3">
             <h3 className="font-bold">{article.title}</h3>
             <p>{article.body}</p>
+            <Button variant="contained" color="primary" size="small">
+                Like
+            </Button>
         </div>
     );
 }
