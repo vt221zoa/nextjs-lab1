@@ -1,13 +1,13 @@
 "use client";
-
 import NavLink from "./NavLink";
+import styles from "@/styles/navigationMenu.module.scss";
 
 export default function Header() {
     return (
-        <header className="sticky top-0 z-50 bg-gray-300 shadow">
-            <nav className="flex items-center justify-between px-4 py-2">
+        <header className=" bg-gray-300 shadow">
+            <nav className={styles.menu}>
                 <NavLink href="/">Home</NavLink>
-                <div className="flex gap-4">
+                <div className="nav-links">
                     <NavLink href="/articles">Articles</NavLink>
                     <NavLink href="/articles/favorite">Favorites</NavLink>
                     <NavLink href="/articles/create">Create</NavLink>
