@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**скріншоти на ходу виконання лабораторної роботи**
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**завдання 2_6 Додати підсвічування**
+![image](./screenshots/2_6.jpg)
+**завдання 3_1 Вивести інформацію з отриманих даних**
+![image](./screenshots/3_1.png)
+**завдання 3_2 Сторінка завантаження**
+![image](./screenshots/3_2.png)
+**завдання 3_4 Окремі індикатори завантаження для FavoriteArticle**
+![image](./screenshots/3_4.png)
+**завдання 3_7 збілдити апку**
+![image](./screenshots/3_7.png)
+**завдання 3_8 запустити за допомогою npm http-server**
+![image](./screenshots/3_8.png)
+**завдання 4_2 модульна scss файл для стилізації меню**
+![image](./screenshots/4_2.png)
+**завдання 4_5 компонент MUI у FavoriteArticle**
+![image](./screenshots/4_5.png)
